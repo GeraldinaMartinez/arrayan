@@ -1,0 +1,41 @@
+    body{background-color: rgb(245, 234, 240);}
+    
+    .encabezado{margin: 2px; text-align: center; color:darkred;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+   
+    @media (max-width: 600px){
+        .novedades{flex-direction: column;}
+        .nuestros_productos{flex-direction: column;}
+    }
+        
+    h2{padding-top: 60px;}
+    
+    .contenedor1{text-align: center;color: darkgoldenrod;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .novedades{display: flex;}
+    .producto1{margin-left: auto; margin-right: auto; padding: 20px; text-align: center; color: darkolivegreen;}
+    #foto_sahumerios{width: 300px;}
+    .producto2{margin-left: auto; margin-right: auto; padding: 20px; text-align: center; color: darkolivegreen;}
+    #foto_sales{width: 300px;}
+   
+    .contenedor2{text-align: center; color: darkgoldenrod; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .nuestros_productos{display: flex;}
+    .producto3{margin-left: auto; margin-right: auto; padding: 20px; text-align: center; color: darkolivegreen;}
+    #foto_jabones{width: 300px;}
+    .producto4{margin-left: auto; margin-right: auto; padding: 20px; text-align: center; color: darkolivegreen;}
+    #foto_velas{width: 300px;}
+    .producto5{margin-left: auto; margin-right: auto; padding: 20px; text-align: center; color: darkolivegreen;}
+    #foto_bombas{width: 300px;}
+
+    details {padding: 15px; background-color:honeydew; margin-bottom: 20px;}
+    summary {cursor: pointer;}
+    .cont1{text-align: left;}
+    .cont2{text-align: left;}
+    .cont3{text-align: left;}
+    .cont4{text-align: left;}
+    .cont5{text-align: left;}
+
+    footer{background-color: rgb(245, 234, 240);}
+    .rrss{padding: 30px; margin-left: auto; margin-right: auto; text-align: center;color: firebrick; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .wsp{padding: 30px; margin-left: auto; margin-right: auto; text-align: center;color: firebrick; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    #insta{color: red;}
+    #face{color: blue;}
+    #wsp{color: green;}
